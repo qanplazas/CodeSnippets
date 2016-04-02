@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>nunitTest</Title>
+    <Author>Mindaugas Levanas</Author>
+    <Shortcut>ntest</Shortcut>
+    <Description>nunit testas</Description>
+    <SnippetTypes>
+      <SnippetType>SurroundsWith</SnippetType>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>pavad</ID>
+        <Default>pavadinimas</Default>
+      </Literal>
+    <Literal Editable="false">
+      <ID>testAttrib</ID>
+      <Function>SimpleTypeName(global::NUnit.Framework.TestAttribute)</Function>
+    </Literal>
+    </Declarations>
+    <Code Language="CSharp">
+      <![CDATA[[$testAttrib$]
+      public void $pavad$()
+      {
+        $end$
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>Be pavadinimo</Title>
+    <Author></Author>
+    <Shortcut></Shortcut>
+    <Description></Description>
+    <SnippetTypes>
+      <SnippetType>SurroundsWith</SnippetType>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literals />
+    </Declarations>
+    <Code Language="CSharp"><![CDATA[some code]]></Code>
+  </Snippet>
+</CodeSnippet>
+</CodeSnippets>
